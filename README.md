@@ -47,23 +47,21 @@ require 'unleashed_client'
 This is useful if you need to iterate over all pages and get all the data:
 
 ```ruby
-response = @client.get_number_of_pages
-pages = response["Pagination"]["NumberOfPages"]
+pages = @client.get_number_of_pages
 ```
 
 ### Get the first 200 sales orders
 Returns the first 200 sales orders because page number 1 is the default:
 
 ```ruby
-response = @client.get_first_200
-items = response["Items"]
+items = @client.get_first_200
 ```
 
 ### Get sales orders from a specific page
 ```ruby
 your_page_number = 2
-response = @client.get_orders_from_page(page_number: your_page_number)
-items = response["Items]
+
+items = @client.get_orders_from_page(page_number: your_page_number)
 ```
 
 Example usage:
@@ -74,8 +72,7 @@ require 'unleashed_client'
 
 @client = UnleashedClient::SalesOrder.new(api_key: ENV['API_KEY'], api_id: ENV['API_ID'])
 
-response = @client.get_number_of_pages
-number_of_pages = response["Pagination"]["NumberOfPages"]
+number_of_pages = @client.get_number_of_pages
 
 number_of_pages.downto(1).each do |i|
     items = @client.get_orders_from_page(page_number: i)
