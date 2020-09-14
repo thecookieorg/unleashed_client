@@ -114,6 +114,6 @@ Other resources to be added:
 * [WarehouseStockTransfers](https://apidocs.unleashedsoftware.com/WarehouseStockTransfers);
 
 ## Author
-Marko Manojlovic <marko.manojlovic.bg@gmail.com>
-[https://manoylo.me](https:/manoylo.me)
-[LinkedIn](https://www.linkedin.com/in/marko-manojlovic-mm/)
+* Marko Manojlovic <marko.manojlovic.bg@gmail.com>
+* [https://manoylo.me](https:/manoylo.me)
+* [LinkedIn](https://www.linkedin.com/in/marko-manojlovic-mm/)
