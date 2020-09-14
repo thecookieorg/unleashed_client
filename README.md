@@ -97,6 +97,7 @@ response = @client.get_details(guid: your_guid)
 
 ## TODO
 * Add better tests wth Rspec;
+* Let users pick returned data type between JSON and Xml;
 
 What has to be added for SalesOrders resource:
 * creating new sales orders;
