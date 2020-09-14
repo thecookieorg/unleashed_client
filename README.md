@@ -4,6 +4,9 @@
 
 A Ruby wrapper for [Unleashed](https://www.unleashedsoftware.com/)
 
+Check out [example app here](https://obscure-springs-18424.herokuapp.com/)
+and example app [repo here](https://github.com/thecookieorg/unleashed_client_example).
+
 ## Documentation
 The documentation for Unleashed API can be found [here](https://apidocs.unleashedsoftware.com)
 
